@@ -1,0 +1,71 @@
+The first story
+  Sizeof a char is 1 byte
+  Sizeof a short is 2 bytes
+  Sizeof an int is 4 bytes
+  Sizeof a long is 8 bytes
+
+  Sizeof a char* is 8 bytes
+  Sizeof a short* is 8 bytes
+  Sizeof a int* is 8 bytes
+  Sizeof a long* is 8 bytes
+
+The second story
+  The value that pMyChar points to is d
+  The value that pMyShort points to is 200
+  The value that pMyInt points to is 300
+  The value that pMyLong points to is 400
+
+  The address of myChar is 0x
+   The value of pMyChar is 0x
+
+  The address of myShort is 0x
+   The value of pMyShort is 0x
+
+  The address of myInt is 0x
+   The value of pMyInt is 0x
+
+  The address of myLong is 0x
+   The value of pMyLong is 0x
+
+The third story
+  The value pointed to by spMyChar is d
+  The value pointed to by spMyShort is 200
+  The value pointed to by spMyInt is 300
+  The value pointed to by spMyLong is 400
+
+The third story
+  The value pointed to by spMyChar is i
+  The value pointed to by spMyShort is 205
+  The value pointed to by spMyInt is 305
+  The value pointed to by spMyLong is 405
+
+The third story
+  The value pointed to by spMyChar is n
+  The value pointed to by spMyShort is 210
+  The value pointed to by spMyInt is 310
+  The value pointed to by spMyLong is 410
+
+The fourth story
+  Released memory under spMyChar
+  Released memory under spMyShort
+  Released memory under spMyInt
+  Released memory under spMyLong
+
+The fourth story
+  spMyChar is NULL
+  spMyShort is NULL
+  spMyInt is NULL
+  spMyLong is NULL
+
+The fifth story
+  Sizeof a pointer to some object is 8 bytes
+  The value of pMyObject is 0x
+  The result of sgetc() is -1
+  The result of in_avail() is 0
+
+The sixth story
+  The square of 4 is << 16
+  The variable a is called by value, so it's still 4
+  The square of 4 is << 16
+  The variable b is called by reference, so it's now 16
+
